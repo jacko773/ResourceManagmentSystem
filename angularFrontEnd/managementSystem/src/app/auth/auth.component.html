@@ -1,0 +1,23 @@
+<div class="container-fluid card">
+    <div class="row">
+        <div class="col-md-8 login-welcome">
+            <div class="login-content">
+                <h3>Welcome</h3> To Resourse Management System
+            </div>
+        </div>
+        <div class="col-md-4 login-form">
+            <div class="row col-md-8 col-sm-10 col-xs-8 auth-form">
+                <div class="login-header">
+                    <h3>User Login</h3>
+                </div>
+                <div class="form-group">
+                    <input class="form-control input-login" type="email" placeholder="email" #email>
+                </div>
+                <div class="form-group">
+                    <input class="form-control input-login" type="password" placeholder="password" #password>
+                </div>
+                <button class="btn btn-success btn-block btn-login" (click)="signIn(email,password)">Sign In</button>
+            </div>
+        </div>
+    </div>
+</div>
